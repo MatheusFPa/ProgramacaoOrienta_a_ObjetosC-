@@ -1,0 +1,6 @@
+C:\DevelopmentProjects\ExercicioC#ProgramaçãoOrientadaaObjetos\Pratica2Aula23\Pratica2Aula23\bin\Debug\Pratica2Aula23.exe.config
+C:\DevelopmentProjects\ExercicioC#ProgramaçãoOrientadaaObjetos\Pratica2Aula23\Pratica2Aula23\bin\Debug\Pratica2Aula23.exe
+C:\DevelopmentProjects\ExercicioC#ProgramaçãoOrientadaaObjetos\Pratica2Aula23\Pratica2Aula23\bin\Debug\Pratica2Aula23.pdb
+C:\DevelopmentProjects\ExercicioC#ProgramaçãoOrientadaaObjetos\Pratica2Aula23\Pratica2Aula23\obj\Debug\Pratica2Aula23.csprojResolveAssemblyReference.cache
+C:\DevelopmentProjects\ExercicioC#ProgramaçãoOrientadaaObjetos\Pratica2Aula23\Pratica2Aula23\obj\Debug\Pratica2Aula23.exe
+C:\DevelopmentProjects\ExercicioC#ProgramaçãoOrientadaaObjetos\Pratica2Aula23\Pratica2Aula23\obj\Debug\Pratica2Aula23.pdb
