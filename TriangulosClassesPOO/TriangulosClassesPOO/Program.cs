@@ -11,27 +11,27 @@ namespace TriangulosClassesPOO
     {
         static void Main(string[] args)
         {
-            Triangulo X, Y;
+            Triangulo x, y;
 
-            X = new Triangulo();
-            Y = new Triangulo();
+            x = new Triangulo();
+            y = new Triangulo();
 
             Console.WriteLine("Entre com as medidas do triângulo X: ");
 
-            X.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            X.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            X.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine("Entre com as medidas do triângulo y: ");
-            Y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            Y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            double p = (X.A + X.B + X.C) / 2.0;
-            double areaX = Math.Sqrt(p * (p - X.A) * (p - X.B) * (p - X.C));
+            double areaX = x.Area();
 
-            p = (Y.A + Y.B + Y.C) / 2.0;
-            double areaY = Math.Sqrt(p * (p - Y.A) * (p - Y.B) * (p - Y.C));
+            double areaY = y.Area();
+
+           
 
             Console.WriteLine("Área de x = " + areaX.ToString("F4", CultureInfo.InvariantCulture));
             Console.WriteLine("Área de Y = " + areaY.ToString("F4", CultureInfo.InvariantCulture));
